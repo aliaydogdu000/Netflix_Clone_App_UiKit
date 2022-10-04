@@ -13,7 +13,7 @@ class UpComingViewController: UIViewController {
     
     private let upcomingtable:UITableView = {
         let table = UITableView()
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        table.register(TitleTableViewCell.self, forCellReuseIdentifier: TitleTableViewCell.identifier)
         return table
     }()
 
