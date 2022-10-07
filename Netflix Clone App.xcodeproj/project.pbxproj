@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4158EB528F0D5FB0088D6F1 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4158EB428F0D5FB0088D6F1 /* SearchResultsViewController.swift */; };
 		F43CEA0828E38F4400BEABF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CEA0728E38F4400BEABF6 /* AppDelegate.swift */; };
 		F43CEA0A28E38F4400BEABF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CEA0928E38F4400BEABF6 /* SceneDelegate.swift */; };
 		F43CEA0C28E38F4400BEABF6 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CEA0B28E38F4400BEABF6 /* MainTabBarViewController.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4158EB428F0D5FB0088D6F1 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		F43CEA0428E38F4400BEABF6 /* Netflix Clone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43CEA0728E38F4400BEABF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F43CEA0928E38F4400BEABF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4158EB628F0D64B0088D6F1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F43CEA3828E3947B00BEABF6 /* HomeViewController.swift */,
+				F43CEA3A28E394D300BEABF6 /* UpComingViewController.swift */,
+				F43CEA3C28E394FE00BEABF6 /* SearchViewController.swift */,
+				F43CEA3E28E3953200BEABF6 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F4158EB728F0D66C0088D6F1 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				F4158EB428F0D5FB0088D6F1 /* SearchResultsViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		F43CE9FB28E38F4400BEABF6 = {
 			isa = PBXGroup;
 			children = (
@@ -161,10 +182,8 @@
 		F43CEA3728E3945800BEABF6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F43CEA3828E3947B00BEABF6 /* HomeViewController.swift */,
-				F43CEA3A28E394D300BEABF6 /* UpComingViewController.swift */,
-				F43CEA3C28E394FE00BEABF6 /* SearchViewController.swift */,
-				F43CEA3E28E3953200BEABF6 /* DownloadsViewController.swift */,
+				F4158EB728F0D66C0088D6F1 /* General */,
+				F4158EB628F0D64B0088D6F1 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -358,6 +377,7 @@
 				F4511E1628E84B7F0002DC16 /* APICaller.swift in Sources */,
 				F4B17F6D28E5DCEC0058370E /* HeroHeaderUIView.swift in Sources */,
 				F43CEA3F28E3953200BEABF6 /* DownloadsViewController.swift in Sources */,
+				F4158EB528F0D5FB0088D6F1 /* SearchResultsViewController.swift in Sources */,
 				F4F62D2B28E8D68A00362CFE /* Extensions.swift in Sources */,
 				F43CEA3D28E394FE00BEABF6 /* SearchViewController.swift in Sources */,
 				F43CEA3B28E394D300BEABF6 /* UpComingViewController.swift in Sources */,
