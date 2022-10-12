@@ -143,26 +143,30 @@ class APICaller{
         task.resume()
     }
     
-    func getMovie(with query:String,completion:@escaping (Result <VideoElement,Error>) -> Void){
-        guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)else {return}
-        guard let url = URL(string:"\(Constants.YoutubeBASE_URL)q=\(query)&key=\(Constants.YoutubeAPI_KEY)") else {return}
-        let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
-            guard let data = data , error == nil else {
-                return
-            }
+    func getMovie(with query: String, completion: @escaping (Result<VideoElement, Error>) -> Void) {
             
-            do{
-                let results = try JSONDecoder().decode(YoutubeSearchResponse.self, from: data)
-                completion(.success(results.items[0]))
-            } catch {
-                completion(.failure(error))
-                print(error.localizedDescription)
+
+            guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else {return}
+            guard let url = URL(string: "\(Constants.YoutubeBASE_URL)q=\(query)&key=\(Constants.YoutubeAPI_KEY)") else {return}
+            let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
+                guard let data = data, error == nil else {
+                    return
+                }
+                
+                do {
+                    let results = try JSONDecoder().decode(YoutubeSearchResponse.self, from: data)
+                    
+                    completion(.success(results.items[0]))
+                    
+
+                } catch {
+                    completion(.failure(error))
+                    print(error.localizedDescription)
+                }
+
             }
-            
-        }
-        task.resume()
-    }
-}
+            task.resume()
+        }}
 
 
 

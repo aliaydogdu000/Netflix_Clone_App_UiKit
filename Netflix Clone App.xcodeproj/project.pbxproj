@@ -22,6 +22,8 @@
 		F43CEA3F28E3953200BEABF6 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CEA3E28E3953200BEABF6 /* DownloadsViewController.swift */; };
 		F4511E1628E84B7F0002DC16 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4511E1528E84B7F0002DC16 /* APICaller.swift */; };
 		F4511E1828E852CB0002DC16 /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4511E1728E852CB0002DC16 /* TitleModel.swift */; };
+		F4892B9028F75FA1005BC69A /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4892B8F28F75FA1005BC69A /* TitlePreviewViewController.swift */; };
+		F4892B9328F766A7005BC69A /* TitlePrevievViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4892B9228F766A7005BC69A /* TitlePrevievViewModel.swift */; };
 		F496E85428F6F5F100FE0AD0 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496E85328F6F5F100FE0AD0 /* YoutubeSearchResponse.swift */; };
 		F4B17F6D28E5DCEC0058370E /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B17F6C28E5DCEC0058370E /* HeroHeaderUIView.swift */; };
 		F4CB095828EC6C780094ECC3 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB095728EC6C780094ECC3 /* TitleTableViewCell.swift */; };
@@ -70,6 +72,8 @@
 		F43CEA3E28E3953200BEABF6 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		F4511E1528E84B7F0002DC16 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		F4511E1728E852CB0002DC16 /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
+		F4892B8F28F75FA1005BC69A /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		F4892B9228F766A7005BC69A /* TitlePrevievViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePrevievViewModel.swift; sourceTree = "<group>"; };
 		F496E85328F6F5F100FE0AD0 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		F4B17F6C28E5DCEC0058370E /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		F4CB095728EC6C780094ECC3 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				F4158EB428F0D5FB0088D6F1 /* SearchResultsViewController.swift */,
+				F4892B8F28F75FA1005BC69A /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				F4CB095928EC73780094ECC3 /* TitleViewModel.swift */,
+				F4892B9228F766A7005BC69A /* TitlePrevievViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -372,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4CB095828EC6C780094ECC3 /* TitleTableViewCell.swift in Sources */,
+				F4892B9328F766A7005BC69A /* TitlePrevievViewModel.swift in Sources */,
 				F4511E1828E852CB0002DC16 /* TitleModel.swift in Sources */,
 				F4F62D2F28E8DE8D00362CFE /* TitleCollectionViewCell.swift in Sources */,
 				F43CEA0C28E38F4400BEABF6 /* MainTabBarViewController.swift in Sources */,
@@ -385,6 +392,7 @@
 				F4F62D2B28E8D68A00362CFE /* Extensions.swift in Sources */,
 				F43CEA3D28E394FE00BEABF6 /* SearchViewController.swift in Sources */,
 				F43CEA3B28E394D300BEABF6 /* UpComingViewController.swift in Sources */,
+				F4892B9028F75FA1005BC69A /* TitlePreviewViewController.swift in Sources */,
 				F43CEA0A28E38F4400BEABF6 /* SceneDelegate.swift in Sources */,
 				F43CEA3928E3947B00BEABF6 /* HomeViewController.swift in Sources */,
 				F4CB095A28EC73780094ECC3 /* TitleViewModel.swift in Sources */,
