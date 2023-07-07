@@ -1,8 +1,8 @@
 # Netflix_Clone_App_UiKit
 Netflix clone app with swift programmatically MVVM
 
-HOME
-<img src="https://github.com/aliaydogdu000/Netflix_Clone_App_UiKit/assets/86653103/02532173-c545-4f6d-a90d-e64db9353964"  width="20%" height="20%">
+
+<img src="https://github.com/aliaydogdu000/Netflix_Clone_App_UiKit/assets/86653103/02532173-c545-4f6d-a90d-e64db9353964"  width="20%" height="20%" title="HOME">
 <img src="https://github.com/aliaydogdu000/Netflix_Clone_App_UiKit/assets/86653103/793c3ac2-efa8-4af7-9f1c-e4850498e6e2"  width="20%" height="20%">
 
 DETAIL
